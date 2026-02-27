@@ -15,7 +15,7 @@
 <script src="email.min.js"></script>
 <script>
   // arquivo 'email.min.js' deve existir na pasta (baixe do CDN)
-  let emailjsReady = false;
+  let emailjsReady = true;
 
   if (window.emailjs && window.emailjs.init) {
     try {
@@ -48,7 +48,7 @@
           categoria: tarefa.category || "—",
           prioridade: tarefa.priority || "—",
           notas: tarefa.notes || "—",
-          to_email: "Willricheduardo17@gmail.com",
+          to_email: "Willricheduardo17@gmail.com, analuizaschug7@gmail.com",
           nome: "Eduardo"
         }
       );
